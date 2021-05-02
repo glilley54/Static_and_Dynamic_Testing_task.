@@ -36,6 +36,6 @@ def cards_total(self, cards):
   total # should read total = 0
   for card in cards:
     total += card.value
-    return "You have a total of" + total # this shoul;d read "You have a total of #f{total}"
+    return "You have a total of" + total # this should read "You have a total of #f{total}"
   
 ```
