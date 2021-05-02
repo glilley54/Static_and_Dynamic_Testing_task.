@@ -21,9 +21,16 @@ class CardGame:
       return card2
   
 
-
+#this is what I think it should be
   def cards_total(self, cards):
-    total 
+    total = 0
     for card in cards:
-      total += card.value
-      return "You have a total of" + total 
+    total += card.value
+    return f"You have a total of {total}."
+
+#this is the original to be ameneded
+def cards_total(self, cards):
+  total
+  for card in cards:
+    total += card.value
+    return "You have a total of" + total
