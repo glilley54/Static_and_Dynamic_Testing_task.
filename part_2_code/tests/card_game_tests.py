@@ -6,15 +6,16 @@ class TestCardGame(unittest.TestCase):
 
     def setUp(self):
         self.card_1 = Card("Ace", 1)
+        self.card_2 = Card("hearts", 7)
 
-    def test_card_has_suit(self):
-        self.assertEqual("Ace",self.card_1.suit)
+    def test_check_for_ace(self):
+        self.assertEqual("Ace", self.card_1.suit)
 
     def test_highest_card(self):
-        self.assertEqual(8,8,4)    
+        self.assertEqual(8,8,2)    
     
-    def test_cards_total(self):
-        self.assertEqual("You have a total of 7", (cards_total(7))
+    #def test_cards_total(self):
+        #self.assertEqual("You have a total of", self.card_2.value)
 
 
         
