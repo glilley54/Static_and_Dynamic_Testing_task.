@@ -24,15 +24,16 @@ class CardGame:
       return False
    
 
-  dif highest_card(self, card1 card2):#dif should read def
-  if card1.value > card2.value:
-    return card # should read card1
+  dif highest_card(self, card1 card2):#dif should read def and card1, card2 (comma missing)
+  #indentation of if statement needs to be moved inline.
+  if card1.value > card2.value:#indentation is wrong
+    return card # should read card1. indentation of return is wrong
   else:
-    return card2
+    return card2 #indentation of return is wrong
   
 
 
-def cards_total(self, cards):
+def cards_total(self, cards):#indentation required
   total # should read total = 0
   for card in cards:
     total += card.value
