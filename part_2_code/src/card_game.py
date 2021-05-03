@@ -25,12 +25,12 @@ class CardGame:
   def cards_total(self, cards):
     total = 0
     for card in cards:
-    total += card.value
+      total += card.value
     return f"You have a total of {total}."
 
-#this is the original to be ameneded
-def cards_total(self, cards):
-  total
-  for card in cards:
-    total += card.value
-    return "You have a total of" + total
+#this is the original to be amended
+  #def cards_total(self, cards):
+    #total
+    #for card in cards:
+      #total += card.value
+      #return "You have a total of" + total
